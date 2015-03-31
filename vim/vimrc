@@ -1,0 +1,19 @@
+filetype plugin indent on
+
+set nocompatible
+
+sy on
+
+set nu
+set ruler
+
+set hls
+set ic
+
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+set cursorline
+
+map K r<Enter>
