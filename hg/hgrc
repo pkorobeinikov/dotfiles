@@ -1,0 +1,6 @@
+[ui]
+username = Petr A. Korobeinikov <pkorobeinikov@gmail.com>
+ignore = ~/.hgignore_global
+
+[alias]
+last = log --limit 1

@@ -1,0 +1,14 @@
+syntax: glob
+
+# Mac OS X stuff
+.DS_Store
+
+# Eclipse stuff
+.cproject
+.project
+.buildpath
+.settings
+
+# My own Nginx repo
+objs
+Makefile
