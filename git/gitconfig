@@ -1,0 +1,23 @@
+[user]
+        name = Petr Korobeinikov
+        email = pkorobeinikov@gmail.com
+[core]
+        autocrlf = input
+        editor = vim
+        filemode = true
+        excludesfile = ~/.gitignore_global
+[alias]
+        st = status
+        ci = commit -v
+        co = checkout
+        cm = checkout master
+        br = branch
+        last = log -1
+        l = log --oneline
+        lg = log --oneline --graph
+        ms = merge --squash
+        mm = merge master
+        ds = diff --staged
+        rh = reset --hard
+[push]
+        default = current

@@ -1,0 +1,20 @@
+# Mac OS X stuff
+.DS_Store
+
+# Eclipse stuff
+.cproject
+.project
+.buildpath
+.settings
+
+# Idea stuff
+.idea
+*.iml
+
+*.swp
+
+# Vagrant stuff
+.vagrant
+Vagrantfile
+
+.gdbinit
