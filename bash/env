@@ -1,0 +1,11 @@
+export LC_ALL="en_US.UTF-8"
+
+export PATH="~/bin:$PATH"
+export PATH="~/bin/apache-ant/bin:$PATH"
+
+# Android SDK
+export PATH="$PATH:~/bin/adt-bundle/sdk/tools"
+export PATH="$PATH:~/bin/adt-bundle/sdk/platform-tools"
+
+# My own Postgresql binaries
+export PATH="~/Workspace/postgresql.org/build/bin:$PATH"
