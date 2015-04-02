@@ -1,5 +1,9 @@
 alias l='ls -1F'
 alias la='ls -la'
+
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+alias grep="grep --color=auto"
+alias grep="egrep --color=auto"
