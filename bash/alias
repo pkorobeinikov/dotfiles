@@ -1,3 +1,5 @@
+# In order to bypass an alias '\' should be used: \grep
+
 alias l='ls -1F'
 alias la='ls -la'
 
