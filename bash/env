@@ -1,6 +1,7 @@
 export LC_ALL="en_US.UTF-8"
 
 export PATH="~/bin:$PATH"
+export PATH="~/bin/go/bin:$PATH"
 export PATH="~/bin/apache-ant/bin:$PATH"
 
 # Android SDK
