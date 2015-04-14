@@ -1,8 +1,11 @@
 export LC_ALL="en_US.UTF-8"
 
 export PATH="~/bin:$PATH"
-export PATH="~/bin/go/bin:$PATH"
 export PATH="~/bin/apache-ant/bin:$PATH"
+
+# Go
+export GOROOT="$HOME/bin/go"
+export PATH="$GOROOT/bin:$PATH"
 
 # Android SDK
 export PATH="$PATH:~/bin/adt-bundle/sdk/tools"
