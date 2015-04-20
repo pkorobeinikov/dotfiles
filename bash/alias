@@ -12,3 +12,13 @@ alias grep="egrep --color=auto"
 
 alias h='history'
 alias j='jobs -l'
+
+alias preview="open -a '/Applications/Preview.app'"
+alias ql='qlmanage -p'
+alias xcode="open -a '/Developer/Applications/Xcode.app'"
+alias f='open -a Finder '
+alias tedit='open -a TextEdit'
+
+alias mac-press-and-hold-disable="defaults write -g ApplePressAndHoldEnabled -bool false"
+alias mac-press-and-hold-enable="defaults write -g ApplePressAndHoldEnabled -bool true"
+alias mac-openports='sudo lsof -iTCP -sTCP:LISTEN -P'
