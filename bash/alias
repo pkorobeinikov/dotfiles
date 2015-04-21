@@ -10,6 +10,8 @@ alias ....="cd ../../.."
 alias grep="grep --color=auto"
 alias grep="egrep --color=auto"
 
+alias fname='find . -name'
+
 alias h='history'
 alias j='jobs -l'
 
