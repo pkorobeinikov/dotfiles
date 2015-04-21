@@ -16,6 +16,7 @@
         last = log -1
         l = log --oneline
         lg = log --oneline --graph
+        today = shortlog --since=midnight
         ms = merge --squash
         mm = merge master
         ds = diff --staged
