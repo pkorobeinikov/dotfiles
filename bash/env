@@ -8,8 +8,8 @@ export GOROOT="$HOME/bin/go"
 export PATH="$GOROOT/bin:$PATH"
 
 # Android SDK
-export PATH="$PATH:~/bin/adt-bundle/sdk/tools"
-export PATH="$PATH:~/bin/adt-bundle/sdk/platform-tools"
+export PATH="$PATH:~/bin/android-sdk/tools"
+export PATH="$PATH:~/bin/android-sdk/platform-tools"
 
 # My own Postgresql binaries
 export PATH="~/Workspace/postgresql.org/build/bin:$PATH"
