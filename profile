@@ -6,7 +6,9 @@ source ${DOTFILES_COMPLETION_DIR}vagrant-completion.bash
 source ${DOTFILES_COMPLETION_DIR}brew-completion.bash
 source ${DOTFILES_COMPLETION_DIR}ssh-completion.bash
 source ${DOTFILES_COMPLETION_DIR}tmux-completion.bash
-source ${DOTFILES_COMPLETION_DIR}git-prompt.bash
+#source ${DOTFILES_COMPLETION_DIR}git-prompt.bash
+
+source ${DOTFILES_DIR}oh-my-git/prompt.sh
 
 source ${DOTFILES_DIR}bash/env
 source ${DOTFILES_DIR}bash/alias
