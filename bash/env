@@ -12,6 +12,6 @@ export PATH="$PATH:~/bin/android-sdk/tools"
 export PATH="$PATH:~/bin/android-sdk/platform-tools"
 
 # My own Postgresql binaries
-export PATH="~/Workspace/postgresql.org/build/bin:$PATH"
+export PATH="$HOME/Workspace/postgresql.org/build/bin:$PATH"
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
