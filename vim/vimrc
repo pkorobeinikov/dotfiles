@@ -1,19 +1,26 @@
-filetype plugin indent on
-
 set nocompatible
 
-sy on
+set noswapfile
 
-set nu
+filetype plugin indent on
+
+syntax on
+
+set number
 set ruler
 
-set hls
-set ic
+set list
+set listchars=tab:▸\ ,eol:¬,nbsp:⋅,trail:•
+
+set incsearch
+set hlsearch
+set smartcase
 
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 
 set cursorline
+set colorcolumn=80
 
 map K r<Enter>
