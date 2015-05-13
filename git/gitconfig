@@ -21,6 +21,7 @@
         mm = merge master
         ds = diff --staged
         rh = reset --hard
+        tags = tag --list
 [push]
         default = current
 [color]
