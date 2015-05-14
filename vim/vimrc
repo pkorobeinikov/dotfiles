@@ -1,5 +1,10 @@
 set nocompatible
 
+noremap <left> <nop>
+noremap <right> <nop>
+noremap <up> <nop>
+noremap <down> <nop>
+
 set noswapfile
 
 filetype plugin indent on
