@@ -35,6 +35,9 @@ set colorcolumn=80
 
 set scrolloff=10
 
+set linebreak
+set showbreak=>\ \ 
+
 map K r<Enter>
 
 " Statusline {{{
