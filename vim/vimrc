@@ -17,6 +17,8 @@ set fileencoding=utf-8
 set number
 set ruler
 
+set wildmenu
+
 set list
 set listchars=tab:▸\ ,eol:¬,nbsp:⋅,trail:•
 
