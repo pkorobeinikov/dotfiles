@@ -40,6 +40,11 @@ set showbreak=>\ \
 
 map K r<Enter>
 
+let mapleader=','
+
+nmap <leader>s :source $MYVIMRC
+nmap <leader>v :tabe $MYVIMRC
+
 " Statusline {{{
 
 hi User1 ctermbg=white    ctermfg=black   guibg=#89A1A1 guifg=#002B36
