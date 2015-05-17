@@ -18,7 +18,7 @@ set number
 set ruler
 
 set wildmenu
-set wildignore=*.o,.deps,*.obj,*.bak
+set wildignore=*.o,.deps,*.obj,*.bak,*.pyc
 
 set list
 set listchars=tab:▸\ ,eol:¬,nbsp:⋅,trail:•
