@@ -43,8 +43,8 @@ map K r<Enter>
 
 let mapleader=','
 
-nmap <leader>s :source $MYVIMRC
-nmap <leader>v :tabe $MYVIMRC
+nmap <leader>s :source $MYVIMRC<cr>
+nmap <leader>v :tabe $MYVIMRC<cr>
 
 " Statusline {{{
 
