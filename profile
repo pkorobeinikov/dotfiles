@@ -1,3 +1,5 @@
+set -o vi
+
 DOTFILES_DIR=~/bin/dotfiles/
 DOTFILES_COMPLETION_DIR=${DOTFILES_DIR}bash/completion/
 
