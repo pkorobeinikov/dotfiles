@@ -53,6 +53,14 @@ nmap k gk
 nmap 0 g0
 nmap $ g$
 
+cnoreabbrev Wq wq
+cnoreabbrev WQ wq
+cnoreabbrev W w
+cnoreabbrev Q q
+
+cnoreabbrev wrap set wrap
+cnoreabbrev nowrap set nowrap
+
 " Statusline {{{
 
 hi User1 ctermbg=white    ctermfg=black   guibg=#89A1A1 guifg=#002B36
