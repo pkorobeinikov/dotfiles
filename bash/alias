@@ -3,6 +3,7 @@
 alias l='ls -1F'
 alias la='ls -la'
 alias lf='ls -F'
+alias ld='ls -ld */'
 
 alias ..="cd .."
 alias ...="cd ../.."
