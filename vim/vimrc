@@ -16,6 +16,7 @@ set fileencoding=utf-8
 
 set number
 set ruler
+set showcmd
 
 set wildmenu
 set wildignore=*.o,.deps,*.obj,*.bak,*.pyc
@@ -38,6 +39,9 @@ set scrolloff=10
 
 set linebreak
 set showbreak=>\ \ 
+
+set foldmethod=marker
+set foldmarker={{{,}}}
 
 map K r<Enter>
 
