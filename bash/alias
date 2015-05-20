@@ -5,6 +5,7 @@ alias la='ls -la'
 alias lf='ls -F'
 alias ds='ls -ld */'
 
+alias .-="cd -"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
