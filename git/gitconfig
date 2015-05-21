@@ -24,6 +24,7 @@
         tags = tag --list
         unstage = reset HEAD --
         stashes = stash list
+        remotes = remote -v
 [push]
         default = current
 [color]
