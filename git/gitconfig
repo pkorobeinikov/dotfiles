@@ -23,6 +23,7 @@
         rh = reset --hard
         tags = tag --list
         unstage = reset HEAD --
+        stashes = stash list
 [push]
         default = current
 [color]
