@@ -27,6 +27,8 @@ alias gms="g merge --squash"
 alias gds="g diff --staged"
 alias grh="g reset --hard"
 
+alias hpl="hg pull -u"
+
 alias grep="grep --color=auto"
 alias grep="egrep --color=auto"
 
