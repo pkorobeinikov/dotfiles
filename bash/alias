@@ -40,7 +40,6 @@ alias j='jobs -l'
 if [ 'Darwin' = `uname -s` ];
 then
     alias preview="open -a '/Applications/Preview.app'"
-    alias ql='qlmanage -p'
     alias xcode="open -a '/Developer/Applications/Xcode.app'"
     alias f='open -a Finder '
     alias tedit='open -a TextEdit'
