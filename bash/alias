@@ -30,7 +30,7 @@ alias grh="g reset --hard"
 alias hpl="hg pull -u"
 
 alias grep="grep --color=auto"
-alias grep="egrep --color=auto"
+alias egrep="egrep --color=auto"
 
 alias fname='find . -name'
 
