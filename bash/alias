@@ -44,7 +44,5 @@ then
     alias f='open -a Finder '
     alias tedit='open -a TextEdit'
 
-    alias mac-press-and-hold-disable="defaults write -g ApplePressAndHoldEnabled -bool false"
-    alias mac-press-and-hold-enable="defaults write -g ApplePressAndHoldEnabled -bool true"
     alias mac-openports='sudo lsof -iTCP -sTCP:LISTEN -P'
 fi
