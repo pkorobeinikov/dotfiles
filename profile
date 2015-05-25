@@ -7,6 +7,7 @@ source ${DOTFILES_COMPLETION_DIR}brew-completion.bash
 source ${DOTFILES_COMPLETION_DIR}ssh-completion.bash
 source ${DOTFILES_COMPLETION_DIR}tmux-completion.bash
 source ${DOTFILES_COMPLETION_DIR}npm-completion.bash
+source ${DOTFILES_COMPLETION_DIR}bash-completion2.bash
 
 source ${DOTFILES_DIR}git/oh-my-git/prompt.sh
 
