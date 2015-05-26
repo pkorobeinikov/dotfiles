@@ -1,15 +1,24 @@
 #!/bin/sh
 BASH_COMLETION_DIR=bash/completion/
 
-ln -s `pwd`/vim/vimrc ~/.vimrc
+install_symlink () {
+    from=$1
+    dest=$2
 
-ln -s `pwd`/git/gitconfig ~/.gitconfig
-ln -s `pwd`/git/gitignore_global ~/.gitignore_global
+    [ -L $dest ]                                         \
+        && echo "Symlink $dest already exists."          \
+        || ln -s $from $dest
+}
 
-ln -s `pwd`/hg/hgrc ~/.hgrc
-ln -s `pwd`/hg/hgignore_global ~/.hgignore_global
+install_symlink `pwd`/vim/vimrc ~/.vimrc
 
-ln -s `pwd`/tmux/tmux.conf ~/.tmux.conf
+install_symlink `pwd`/git/gitconfig ~/.gitconfig
+install_symlink `pwd`/git/gitignore_global ~/.gitignore_global
+
+install_symlink `pwd`/hg/hgrc ~/.hgrc
+install_symlink `pwd`/hg/hgignore_global ~/.hgignore_global
+
+install_symlink `pwd`/tmux/tmux.conf ~/.tmux.conf
 
 if [ 'Linux' = `uname -s` ]
 then
@@ -18,5 +27,5 @@ then
 elif [ 'Darwin' = `uname -s` ]
 then
     cp ~/.profile ~/.profile.old
-    ln -s `pwd`/profile ~/.profile
+    install_symlink `pwd`/profile ~/.profile
 fi
