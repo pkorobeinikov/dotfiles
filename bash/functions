@@ -37,10 +37,10 @@ ns () {
     }'
 }
 
-function pman() {
+function pman () {
     man -t "${1}" | open -f -a /Applications/Preview.app/
 }
 
-function ql() {
+function ql () {
     qlmanage -p "$@" >/dev/null 2>&1
 }
