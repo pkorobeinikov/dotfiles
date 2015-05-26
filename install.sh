@@ -15,4 +15,8 @@ if [ 'Linux' = `uname -s` ]
 then
     cp ~/.bashrc ~/.bashrc.old
     cat profile >> ~/.bashrc
+elif [ 'Darwin' = `uname -s` ]
+then
+    cp ~/.profile ~/.profile.old
+    ln -s `pwd`/profile ~/.profile
 fi
