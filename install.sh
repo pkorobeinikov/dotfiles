@@ -1,5 +1,4 @@
 #!/bin/sh
-BASH_COMLETION_DIR=bash/completion/
 
 install_symlink () {
     from=$1
