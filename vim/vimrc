@@ -57,6 +57,8 @@ nmap <leader>v :tabe $MYVIMRC<cr>
 
 nmap <leader><space> :set hlsearch! hlsearch?<cr>
 
+nmap <leader>w :w!<cr>
+
 nmap j gj
 nmap k gk
 nmap 0 g0
