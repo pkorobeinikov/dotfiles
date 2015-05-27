@@ -40,6 +40,8 @@ set colorcolumn=80
 
 set scrolloff=10
 
+set history=500
+
 set linebreak
 set showbreak=>\ \ 
 
