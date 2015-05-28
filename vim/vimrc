@@ -67,6 +67,11 @@ nmap k gk
 nmap 0 g0
 nmap $ g$
 
+nmap <C-j> <C-W>j
+nmap <C-k> <C-W>k
+nmap <C-h> <C-W>h
+nmap <C-l> <C-W>l
+
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
 cnoreabbrev W w
