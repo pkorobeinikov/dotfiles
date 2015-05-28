@@ -52,6 +52,8 @@ map K r<Enter>
 
 let mapleader=','
 
+nmap ; :
+
 nmap <leader>s :source $MYVIMRC<cr>
 nmap <leader>v :tabe $MYVIMRC<cr>
 
