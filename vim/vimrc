@@ -17,6 +17,7 @@ set fileencoding=utf-8
 set number
 set ruler
 set showcmd
+set showmatch
 
 set wildmenu
 set wildignore=*.o,.deps,*.obj,*.bak,*.pyc
