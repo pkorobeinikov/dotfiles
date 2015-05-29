@@ -73,6 +73,10 @@ nmap <C-k> <C-W>k
 nmap <C-h> <C-W>h
 nmap <C-l> <C-W>l
 
+nmap <leader>tn :tabnew<cr>
+nmap <leader>tc :tabclose<cr>
+nmap <leader>to :tabonly<cr>
+
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
 cnoreabbrev W w
