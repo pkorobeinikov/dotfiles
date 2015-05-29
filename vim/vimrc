@@ -131,3 +131,15 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-p>
 " }}}
+
+" Strip trailing whitespace {{{
+func! StripTrailingWhitespace()
+    exe "normal mz"
+    %s/\s\+$//ge
+    exe "normal `z"
+endfunc
+
+autocmd BufWrite *.php :call StripTrailingWhitespace()
+autocmd BufWrite *.js :call StripTrailingWhitespace()
+autocmd BufWrite *.html :call StripTrailingWhitespace()
+" }}}
