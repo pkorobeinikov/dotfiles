@@ -49,6 +49,8 @@ set showbreak=>\ \
 set foldmethod=marker
 set foldmarker={{{,}}}
 
+set autoread
+
 map K r<Enter>
 
 let mapleader=','
