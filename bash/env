@@ -11,5 +11,8 @@ export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:~/bin/android-sdk/tools"
 export PATH="$PATH:~/bin/android-sdk/platform-tools"
 
+# Composer
+export PATH="$PATH:~/.composer/vendor/bin"
+
 # My own Postgresql binaries
 export PATH="$HOME/Workspace/postgresql.org/build/bin:$PATH"
