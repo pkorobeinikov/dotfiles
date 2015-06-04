@@ -16,6 +16,8 @@ alias .4="cd ../../../.."
 
 alias chx="chmod +x"
 
+alias v="vim"
+
 alias g="git"
 alias gst="g status"
 alias gpl="g pull"
