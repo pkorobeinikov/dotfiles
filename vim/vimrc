@@ -80,6 +80,9 @@ nmap <leader>tc :tabclose<cr>
 nmap <leader>to :tabonly<cr>
 nmap <leader>te :tabedit 
 
+" Select just pasted text
+nmap gV `[v`]
+
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
 cnoreabbrev W w
