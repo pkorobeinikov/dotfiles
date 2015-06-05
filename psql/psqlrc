@@ -1,0 +1,2 @@
+-- Tab completion in uppercase.
+\set COMP_KEYWORD_CASE upper

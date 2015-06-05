@@ -21,6 +21,8 @@ install_symlink `pwd`/tmux/tmux.conf ~/.tmux.conf
 
 install_symlink `pwd`/editorconfig/editorconfig ~/.editorconfig
 
+install_symlink `pwd`/psql/psqlrc ~/.psqlrc
+
 if [ 'Linux' = `uname -s` ]; then
     cp ~/.bashrc ~/.bashrc.old
     cat profile >> ~/.bashrc
