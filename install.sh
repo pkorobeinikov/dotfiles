@@ -19,6 +19,8 @@ install_symlink `pwd`/hg/hgignore_global ~/.hgignore_global
 
 install_symlink `pwd`/tmux/tmux.conf ~/.tmux.conf
 
+install_symlink `pwd`/editorconfig/editorconfig ~/.editorconfig
+
 if [ 'Linux' = `uname -s` ]; then
     cp ~/.bashrc ~/.bashrc.old
     cat profile >> ~/.bashrc
