@@ -6,3 +6,6 @@
 
 -- Switch to expanded table format automatically.
 \x auto
+
+-- Prompt: user @ database conn_status is_transaction
+\set PROMPT1 '%n@%/%R%#%x '
