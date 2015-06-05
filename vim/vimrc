@@ -5,6 +5,8 @@ noremap <right> <nop>
 noremap <up> <nop>
 noremap <down> <nop>
 
+set mouse=a
+
 set noswapfile
 
 filetype plugin indent on
