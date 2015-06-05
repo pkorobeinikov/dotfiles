@@ -1,2 +1,8 @@
 -- Tab completion in uppercase.
 \set COMP_KEYWORD_CASE upper
+
+-- Turn on timing.
+\timing
+
+-- Switch to expanded table format automatically.
+\x auto
