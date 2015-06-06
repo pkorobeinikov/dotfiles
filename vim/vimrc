@@ -1,5 +1,21 @@
 set nocompatible
 
+" Vundle {{{
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'NLKNguyen/papercolor-theme'
+
+call vundle#end()
+" }}}
+
+set t_Co=256
+colorscheme PaperColor
+
 noremap <left> <nop>
 noremap <right> <nop>
 noremap <up> <nop>
