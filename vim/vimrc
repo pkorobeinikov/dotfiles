@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 " }}}
