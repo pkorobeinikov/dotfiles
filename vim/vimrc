@@ -10,12 +10,15 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'tpope/vim-surround'
+Plugin 'google/vim-colorscheme-primary'
 
 call vundle#end()
 " }}}
 
 set t_Co=256
-colorscheme PaperColor
+"colorscheme PaperColor
+"colorscheme primary
+"set background=dark
 
 noremap <left> <nop>
 noremap <right> <nop>
