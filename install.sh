@@ -10,6 +10,7 @@ install_symlink () {
 }
 
 install_symlink `pwd`/vim/vimrc ~/.vimrc
+install_symlink `pwd`/vim/vim ~/.vim
 
 install_symlink `pwd`/git/gitconfig ~/.gitconfig
 install_symlink `pwd`/git/gitignore_global ~/.gitignore_global
