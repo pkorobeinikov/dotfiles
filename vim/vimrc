@@ -82,6 +82,8 @@ nmap <leader>ev :tabe $MYVIMRC<cr>
 
 nmap <leader><space> :set hlsearch! hlsearch?<cr>
 
+nmap <leader>n :setlocal number!<cr>
+
 nmap <leader>w :w!<cr>
 nmap <leader>q :q!<cr>
 
