@@ -78,7 +78,7 @@ let mapleader=','
 nmap ; :
 
 nmap <leader>sv :source $MYVIMRC<cr>
-nmap <leader>ev :tabe $MYVIMRC<cr>
+nmap <leader>ev :vsplit $MYVIMRC<cr>
 
 nmap <leader><space> :set hlsearch! hlsearch?<cr>
 
