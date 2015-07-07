@@ -8,5 +8,6 @@
 \x auto
 
 -- Prompt: user @ database conn_status is_transaction
+-- todo: use %p after 9.5 release for backend pid
 SELECT pg_catalog.pg_backend_pid() AS backend_pid \gset
 \set PROMPT1 '%n@%/%R%(%:backend_pid:)#%x '
