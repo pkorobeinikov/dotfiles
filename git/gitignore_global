@@ -18,3 +18,7 @@
 Vagrantfile
 
 .gdbinit
+
+# Ctags
+.tags
+.tags1
