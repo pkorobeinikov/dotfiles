@@ -14,6 +14,10 @@ export PATH="$PATH:~/bin/android-sdk/platform-tools"
 # Composer
 export PATH="$PATH:~/.composer/vendor/bin"
 
+# Postgres
+export PGHOST=localhost
+export PGDATABASE=template1
+
 # My own Postgresql binaries
 export PATH="$HOME/Workspace/postgresql.org/build/bin:$PATH"
 
