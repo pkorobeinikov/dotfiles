@@ -21,6 +21,7 @@
         mm = merge master
         ds = diff --staged
         rh = reset --hard
+        ri = rebase -i
         tags = tag --list
         unstage = reset HEAD --
         stashes = stash list
