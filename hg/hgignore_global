@@ -12,3 +12,6 @@ syntax: glob
 # My own Nginx repo
 objs
 Makefile
+
+# Ctags stuff
+.tags
