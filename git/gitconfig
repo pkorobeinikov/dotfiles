@@ -23,6 +23,7 @@
         ds = diff --staged
         rh = reset --hard
         ri = rebase -i
+        pr = pull --rebase
         tags = tag --list
         unstage = reset HEAD --
         stashes = stash list
