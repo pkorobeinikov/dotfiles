@@ -4,6 +4,9 @@ alias l='ls -1F'
 alias la='ls -la'
 alias lf='ls -F'
 alias ds='ls -ld */'
+alias ll='ls -alF'
+
+alias cat='ccat'
 
 alias .-="cd -"
 alias ..="cd .."
