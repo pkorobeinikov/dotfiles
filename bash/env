@@ -2,6 +2,7 @@ export LC_ALL="en_US.UTF-8"
 
 export PATH="~/bin:$PATH"
 export PATH="~/bin/apache-ant/bin:$PATH"
+export PATH="~/bin/gradle/bin:$PATH"
 
 # Go
 export GOROOT="$HOME/bin/go"
