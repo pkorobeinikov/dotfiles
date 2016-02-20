@@ -7,6 +7,7 @@
         filemode = true
         excludesfile = ~/.gitignore_global
 [alias]
+        this = !git init && git add . && git commit -m \"Initial commit.\"
         st = status
         ci = commit -v
         uncommit = reset --soft HEAD^
