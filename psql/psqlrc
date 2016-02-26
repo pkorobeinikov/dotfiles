@@ -1,9 +1,6 @@
 -- Tab completion in uppercase.
 \set COMP_KEYWORD_CASE lower
 
--- Turn on timing.
-\timing
-
 -- Switch to expanded table format automatically.
 \x auto
 
@@ -13,3 +10,6 @@ SELECT pg_catalog.pg_backend_pid() AS backend_pid \gset
 \set PROMPT1 '%n@%/%R%(%:backend_pid:)#%x '
 
 \pset null 'Ø'
+
+-- Turn on timing.
+\timing
