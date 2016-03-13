@@ -4,3 +4,4 @@ ignore = ~/.hgignore_global
 
 [alias]
 last = log --limit 1
+pullup = pull --update
