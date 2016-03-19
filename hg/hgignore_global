@@ -9,6 +9,10 @@ syntax: glob
 .buildpath
 .settings
 
+# Idea stuff
+.idea
+*.iml
+
 # My own Nginx repo
 objs
 Makefile
