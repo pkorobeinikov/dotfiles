@@ -22,8 +22,10 @@
         ms = merge --squash
         mm = merge master
         ds = diff --staged
+        di = diff
         rh = reset --hard
         ri = rebase -i
+        re = rebase
         pr = pull --rebase
         tags = tag --list
         unstage = reset HEAD --
@@ -32,6 +34,8 @@
         remotes = remote -v
 [push]
         default = current
+[rebase]
+        autoStash = true
 [color]
         ui = auto
 [color "branch"]
