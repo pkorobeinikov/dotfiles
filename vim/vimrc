@@ -1,24 +1,8 @@
+execute pathogen#infect()
+
 set nocompatible
 
-" Vundle {{{
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'NLKNguyen/papercolor-theme'
-Plugin 'tpope/vim-surround'
-Plugin 'google/vim-colorscheme-primary'
-
-call vundle#end()
-" }}}
-
 set t_Co=256
-"colorscheme PaperColor
-"colorscheme primary
-"set background=dark
 
 noremap <left> <nop>
 noremap <right> <nop>
@@ -66,7 +50,7 @@ set scrolloff=10
 set history=500
 
 set linebreak
-set showbreak=>\ \ 
+set showbreak=>\ \
 
 set foldmethod=marker
 set foldmarker={{{,}}}
@@ -102,7 +86,7 @@ nmap <C-l> <C-W>l
 nmap <leader>tn :tabnew<cr>
 nmap <leader>tc :tabclose<cr>
 nmap <leader>to :tabonly<cr>
-nmap <leader>te :tabedit 
+nmap <leader>te :tabedit
 
 " Scroll to the middle of the screen on search
 nmap n nzz
