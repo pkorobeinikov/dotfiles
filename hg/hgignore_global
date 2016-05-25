@@ -19,3 +19,5 @@ Makefile
 
 # Ctags stuff
 .tags
+
+ansible.cfg

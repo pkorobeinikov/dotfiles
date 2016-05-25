@@ -22,3 +22,5 @@ Vagrantfile
 # Ctags
 .tags
 .tags1
+
+ansible.cfg
