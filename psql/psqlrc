@@ -9,5 +9,11 @@
 
 \pset null 'Ø'
 
+-- Use one histfile per each database
+\set HISTFILE ~/.psql_history- :DBNAME @ :HOST
+
+-- Do not log duplicates
+\set HISTCONTROL ignoredups
+
 -- Turn timing on.
 \timing
