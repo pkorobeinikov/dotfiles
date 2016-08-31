@@ -7,31 +7,31 @@
         filemode = true
         excludesfile = ~/.gitignore_global
 [alias]
-        this = !git init && git add . && git commit -m \"Initial commit.\"
-        st = status
-        ci = commit -v
-        uncommit = reset --soft HEAD^
-        co = checkout
-        cm = checkout master
         br = branch
-        f = fetch
-        last = log -1
-        l = log --oneline
-        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-        today = shortlog --since=midnight
-        ms = merge --squash
-        mm = merge master
-        ds = diff --staged
+        ci = commit -v
+        cm = checkout master
+        co = checkout
         di = diff
+        ds = diff --staged
+        f = fetch
+        l = log --oneline
+        last = log -1
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        mm = merge master
+        ms = merge --squash
+        pr = pull --rebase
+        re = rebase
+        remotes = remote -v
         rh = reset --hard
         ri = rebase -i
-        re = rebase
-        pr = pull --rebase
-        tags = tag --list
-        unstage = reset HEAD --
-        stashes = stash list
         sp = stash pop
-        remotes = remote -v
+        st = status
+        stashes = stash list
+        tags = tag --list
+        this = !git init && git add . && git commit -m \"Initial commit.\"
+        today = shortlog --since=midnight
+        uncommit = reset --soft HEAD^
+        unstage = reset HEAD --
 [push]
         default = current
 [rebase]
