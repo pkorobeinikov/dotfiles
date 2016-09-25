@@ -24,3 +24,5 @@ Vagrantfile
 .tags1
 
 ansible.cfg
+
+__pycache__
